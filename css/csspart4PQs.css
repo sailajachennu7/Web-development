@@ -1,0 +1,40 @@
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    transition: width 2s ease-in 0.5s;
+}
+#box1:hover {
+    width: 600px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(200px,200px) rotate(90deg);
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transform:skewX(20deg) ;
+}
+
+#box4 {
+    width: 100px;
+    height:100px ;
+    background-color:rgb(165, 12, 160) ;
+    box-shadow: 2px 2px 5px green;
+}
+
+#myPic {
+    width: 200px;
+    height:200px;
+    background-color: blue;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/033/108/991/small/super-cute-teddy-bears-couple-in-love-happy-valentine-s-day-concept-background-ai-generated-image-photo.jpg");
+    background-size:contain;
+    opacity: 50%;
+    
+}

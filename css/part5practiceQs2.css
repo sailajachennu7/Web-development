@@ -1,0 +1,19 @@
+#navbar {
+    height: 50px;
+    width: 900px;
+    border: 2px black solid;
+    background-color: rgb(211, 125, 193);
+    display: flex;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.option {
+    height: 50px;
+    width: 80px;
+    font-size:24px ;
+    border-radius: 10px;
+    margin-left: 5px;
+    line-height: 50px;
+}
